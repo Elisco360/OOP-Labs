@@ -2,8 +2,8 @@
 import random
 
 
-def guessing_game():
-    random.seed(4)
+def guessing_game(seed):
+    random.seed(seed)
     target = random.randint(1, 100)
     number_of_tries = 0
     print(target)
@@ -27,4 +27,4 @@ def guessing_game():
             print(f"Yes! You guessed correctly after {number_of_tries} tries! Congratulations.")
 
 
-guessing_game()
+guessing_game(6)
