@@ -3,6 +3,7 @@ import random
 
 
 def guessing_game():
+    random.seed(4)
     target = random.randint(1, 100)
     number_of_tries = 0
     print(target)
