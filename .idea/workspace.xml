@@ -33,6 +33,7 @@
     "Application.IncomeTaxCalculator.executor": "Run",
     "Python.guess_game.executor": "Run",
     "Python.income_tax.executor": "Run",
+    "Python.rand.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",

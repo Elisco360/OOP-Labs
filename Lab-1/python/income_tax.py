@@ -72,7 +72,7 @@ def compute_tax(income: float) -> float:
             # If remaining amount is less than 110, apply 5% on the remaining amount
             tax_payable += 0.05 * taxable_amount
 
-    return income - tax_payable
+    return round(income - tax_payable, 2)
 
 
-print(compute_tax(5000))
+print(compute_tax(1e12))
