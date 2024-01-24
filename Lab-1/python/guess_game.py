@@ -9,16 +9,16 @@ def guessing_game(seed):
     print(target)
     print("Welcome to the Guessing Game!")
     print("I'm thinking of a number between 1 and 100. Can you guess it?")
-    user_entry = int(input("Guess: "))
+    user_entry = None
 
     while user_entry != target:
+        user_entry = int(input("Guess: "))
         number_of_tries += 1
         if user_entry > target:
             print("Good try, but that's too high. Try again")
-            user_entry = int(input("Guess: "))
         else:
             print("Good try, but that's too low. Try again")
-            user_entry = int(input("Guess: "))
+        
     else:
         number_of_tries += 1
         if number_of_tries == 1:
