@@ -4,7 +4,6 @@ import java.util.Scanner;
 /**
  * Hangman game implementation in Java.
  * This program allows users to play the classic hangman game where they guess letters to uncover a hidden word.
- * @authors elijah.boateng & gideon.bonsu
  */
 public class Hangman
 {
